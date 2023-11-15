@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Tab Switcher with Auto Refresh",
+  "description": "This extension switches tabs at a user-defined interval and then refreshes the tab.",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
